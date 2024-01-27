@@ -1,83 +1,49 @@
 body{
-    /* trying to make scrollable content look nice */
-    min-height: 100vh;
-    /* height: 100vh; */
-    width: 100%;
-    /* max-width: 100vw; */
-    margin: 0;
     padding: 0;
-    background-color: blue;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
+    margin: 0;
+    background-color: bisque;
 }
 
-/* .container-fluid{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    /* background-color: green; 
-} */
-
-#headerArea{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 20vh;
-    background-color: red;
-}
-
-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-    background-color: yellow;
-}
-
-article{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+header{
+    height: 10vh;
     background-color: orange;
 }
 
-footer{
+#topContent{
+    background-color: aqua;
+}
+
+#contentArea{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.foodCardArea{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 10vh;
-    background-color: brown;
 }
 
-#a{
-    background-color: green;
+.foodCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: aqua;
+    /* margin: 0.1em; */
 }
 
-#b{
-    background-color: purple;
+.title{
+    height: 4em;
+    justify-content: left;
+    align-items: center;
+    background-color: aqua;
 }
 
-#c{
-    background-color: pink;
-}
-
-#d{
-    background-color: cyan;
-}
-
-#test{
-    height: 80vh;
-    width: 100%;
-    background-color: white;
-}
-
-#rowTest{
-    background-color: burlywood;
+.cardMargin{
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
 }
