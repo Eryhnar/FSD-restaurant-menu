@@ -26,6 +26,15 @@ header{
     align-items: center; */
 }
 
+/* .card{
+    width: 18em;
+} */
+@media (min-width: 768px) {
+    .custom-card-width {
+        width: 18rem;
+    }
+}
+
 .foodCard{
     display: flex;
     flex-direction: row;
@@ -43,9 +52,19 @@ header{
     align-items: center;
     padding-left: 7em;
     background-color: red;
+    border-top: 0.1em solid green;
 }
 
 .cardMargin{
     margin-top: 0.4em;
     margin-bottom: 0.4em;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
 }
