@@ -1,7 +1,26 @@
 body{
     padding: 0;
     margin: 0;
+
+    background-color: bisque;
 }
+
+.formatMargin{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* .homeSecFormat{
+    margin-left: 10%;
+    margin-right: 10%;
+} */
+
+/* .indexCardText{
+    margin-top: 1em;
+    margin-bottom: 1em;
+} */
+
+
 
 header{
     height: 10vh;
@@ -15,6 +34,10 @@ section{
 
 .sectionTitle{
     height: 4em;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,15 +46,48 @@ section{
 h3{
     font-weight: bolder;
     font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.indexMainCard{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    /* margin-left: 0.5;
+    margin-right: 0.5; */
+    background-color: #a3d8b4;
+    border-radius: 5% / 10%;
+}
+
+.indexCard{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    /* margin-left: 0.5;
+    margin-right: 0.5; */
+    background-color: #a3d8b4;
+    border-radius: 5% / 3%;
+}
+
+.indexAddressCard{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    /* margin-left: 0.5;
+    margin-right: 0.5; */
+    background-color: #a3d8b4;
+    border-radius: 50% 20% / 10% 40%;
 }
 
 .sectionSubTitle{
     font-weight: bold;
     font-size: 1.3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .sectionText{
     font-size: 1.1em;
+    /* margin-top: 1em; */
+    margin-bottom: 1em;
     /* padding-left: 2em;
     padding-right: 2em; */
 }
@@ -47,6 +103,7 @@ h3{
     width: 100%;
     padding-bottom: 100%; /* makes the column square */
     overflow: hidden; /* hides anything that goes outside the container */
+    border-radius: 5%;
 }
 
 .aboutUsPicture img {
@@ -77,3 +134,7 @@ footer{
     height: 1.5em;
     width: 1.5em;
 }
+
+/* fccb92 */
+
+/* a3d8b4 */
