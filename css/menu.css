@@ -1,17 +1,18 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: bisque;
+    /* background-color: bisque; */
+    background-color: #cea474;
 }
 
 header{
     height: 10vh;
-    background-color: orange;
+    /* background-color: orange; */
 }
 
-#topContent{
+/* #topContent{
     background-color: aqua;
-}
+} */
 
 #contentArea{
     width: 100%;
@@ -22,6 +23,11 @@ header{
 .foodCardArea{
     display: flex;
     flex-direction: row;
+    /* background-color: #cea474; */
+    background-color: bisque;
+    margin-left: 1.5em;
+    margin-right: 6em;
+    width: calc(100vw - 7.5em);
     /* justify-content: center;
     align-items: center; */
 }
@@ -41,8 +47,19 @@ header{
     justify-content: center;
     align-items: center;
     
-    background-color: aqua;
+    /* background-color: aqua; */
     /* margin: 0.1em; */
+}
+
+/* .cardBody{
+} */
+
+/* .cardTitle{
+
+} */
+
+.card-text{
+    height: 6em;
 }
 
 .title{
@@ -51,8 +68,16 @@ header{
     justify-content: left;
     align-items: center;
     padding-left: 7em;
-    background-color: red;
+    background-color: #a3d8b4;
     border-top: 0.1em solid green;
+    /* margin: 0em, 5em, 0em, 5em; */
+    /* margin: 3em; */
+    /* padding: -5em; */
+    /* max-width: 100vw; */
+    /* margin: 0em, 3em; */
+    margin-left: 3em;
+    margin-right: 4.5em;
+    width: calc(100vw - 7.5em);
 }
 
 .cardMargin{

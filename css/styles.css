@@ -75,6 +75,10 @@ h3{
     margin-right: 0.5; */
     background-color: #a3d8b4;
     border-radius: 50% 20% / 10% 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sectionSubTitle{
@@ -120,6 +124,19 @@ h3{
 
 }
 
+#contactSection{
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.map{
+    height: 35em;
+    width: 35em;
+    margin: 2em;
+}
 
 footer{
     height: 5vh;
