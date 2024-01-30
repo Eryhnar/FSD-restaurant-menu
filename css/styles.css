@@ -2,7 +2,8 @@ body{
     padding: 0;
     margin: 0;
 
-    background-color: bisque;
+    /* background-color: bisque; */
+    background-color: #cea474;
 }
 
 .formatMargin{
@@ -30,6 +31,10 @@ header{
 section{
     min-height: 85vh;
     background-color: bisque;
+    /* margin-left: 4em;
+    margin-right: 4em; */
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .sectionTitle{
@@ -77,6 +82,7 @@ h3{
     border-radius: 50% 20% / 10% 40%;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -105,9 +111,11 @@ h3{
 .aboutUsPicture {
     position: relative;
     width: 100%;
-    padding-bottom: 100%; /* makes the column square */
-    overflow: hidden; /* hides anything that goes outside the container */
-    border-radius: 5%;
+    padding-bottom: 100%;
+    overflow: hidden;
+    /* border-radius: 5%; */
+    /* padding: 2em; */
+    margin-bottom: 2em;
 }
 
 .aboutUsPicture img {
@@ -115,6 +123,8 @@ h3{
     object-fit: cover;
     width: 100%;
     height: 100%;
+    border-radius: 5%;
+    /* margin: 2em; */
 }
 
 .center{
@@ -145,6 +155,15 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: row; */
+    
+}
+
+#footerArea{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
 .socialMediaIcons{
