@@ -2,8 +2,9 @@ body{
     padding: 0;
     margin: 0;
 
-    /* background-color: bisque; */
-    background-color: #cea474;
+    background-color: bisque;
+    /* background-color: #cea474; */
+    
 }
 
 .formatMargin{
@@ -25,7 +26,7 @@ body{
 
 header{
     height: 10vh;
-    background-color: orange;
+    background-color: #cea474;
 }
 
 /* #cornerLogo{
@@ -49,6 +50,19 @@ header{
     max-width: 100%; 
     /* height: auto;  */
     padding: 0.2em;
+}
+
+.burgerButton{
+    background-color: #a3d8b4;
+    border-radius: 5% / 10%;
+}
+
+.offcanvas-header{
+    background-color: #cea474;
+}
+
+.offCanvasArea{
+    background-color: #a3d8b4;
 }
 
 section{
@@ -76,6 +90,9 @@ h3{
     font-size: 2em;
     margin-top: 1em;
     margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .indexMainCard{
@@ -172,7 +189,8 @@ h3{
 }
 
 footer{
-    height: 5vh;
+    /* height: 5vh; */
+    background-color: #fccb92;
     /* background-color: red; */
     /* display: flex;
     justify-content: center;
