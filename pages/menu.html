@@ -11,18 +11,42 @@
 <body>
     
 
-    <header class="p-3 mb-3 border-bottom">
-        <div class="container h-100">
+    <header class="p-3 mb-3 border-bottom" id="header">
+        <div class="container h-100 offcanvas-header">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start h-100">
                 <a href="../index.html" class="d-flex align-items-center mb-2 mb-lg-0 h-100">
-                    <!-- <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg> -->
                     <img src="../img/small_logo.png" alt="small logo" id="cornerLogo">
                 </a>
+                
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="oCanvasBuger" aria-labelledby="oCanvasBugerLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="oCanvasBugerLabel">The Began</h5>
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body offCanvasArea">
+                        <ul class="nav flex-column">
+                            <li><a href="../pages/menu.html" class="nav-link link-body-emphasis">Menu</a></li>
+                            <li><a href="../pages/contact-us.html" class="nav-link link-body-emphasis">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <nav class="navbar navbar-expand-lg">
+                    <button class="navbar-toggler burgerButton" type="button" data-bs-toggle="offcanvas" data-bs-target="#oCanvasBuger" aria-controls="oCanvasBuger" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
     
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="../pages/menu.html" class="nav-link px-4 link-secondary ">Menu</a></li>
-                    <li><a href="../pages/contact-us.html" class="nav-link px-2 link-body-emphasis">Contact us</a></li>
-                </ul>
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/menu.html">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/contact-us.html">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
         </div>
     </header>
@@ -52,11 +76,11 @@
     
     
     <section class="container-fluid" id="contentArea">
-        <div class="row">
-            <!-- <div class="container-fluid" id="bannerArea">
+        <!-- <div class="row">
+            <div class="container-fluid" id="bannerArea">
                 banner img
-            </div> -->
-        </div>
+            </div>
+        </div> -->
         <div class="row">
             <div class="title">Starters</div>
             <div class="col-12">
@@ -202,9 +226,9 @@
                             <div class="card mx-auto cardMargin d-sm-block custom-card-width">
                                 <img src="..." class="card-img-top" alt="image not found">
                                 <div class="card-body">
-                                  <h5 class="card-title">Japanese Salad</h5>
-                                  <p class="card-text">Lettuce mix, cherry tomatoes, wakame, teriyaki sauce and sesame.</p>
-                                  <h2>4.80€</h2>
+                                  <h5 class="card-title">Began Mex Quesadilla</h5>
+                                  <p class="card-text">Filled with melted vegan cheddar, tomato and caramelized onions.</p>
+                                  <h2>3.80€</h2>
                                 </div>
                             </div>
                         </div>
@@ -212,9 +236,9 @@
                             <div class="card mx-auto cardMargin d-sm-block custom-card-width">
                                 <img src="..." class="card-img-top" alt="image not found">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <h5 class="card-title">Traditional Began Mex</h5>
+                                  <p class="card-text">Filled with vegetal carnita, melted vegan cheddar, rice and mexican sauce.</p>
+                                  <h2>5.00€</h2>
                                 </div>
                             </div>
                         </div>
@@ -222,9 +246,9 @@
                             <div class="card mx-auto cardMargin d-sm-block custom-card-width">
                                 <img src="..." class="card-img-top" alt="image not found">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <h5 class="card-title">Cesar Began Mex</h5>
+                                  <p class="card-text">Filled with crunchy quorn, lettuce, tomato, guacamole, and began sauce.</p>
+                                  <h2>4.70€</h2>
                                 </div>
                             </div>
                         </div>
@@ -232,9 +256,9 @@
                             <div class="card mx-auto cardMargin d-sm-block custom-card-width">
                                 <img src="..." class="card-img-top" alt="image not found">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <h5 class="card-title">Began Mex Quesadilla</h5>
+                                  <p class="card-text">Filled with melted cheddar, olives, jalapeños and vegetal carnita.</p>
+                                  <h2>4.20€</h2>
                                 </div>
                             </div>
                         </div>
@@ -252,13 +276,33 @@
                             <div class="card mx-auto cardMargin d-sm-block custom-card-width">
                                 <img src="..." class="card-img-top" alt="image not found">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <h5 class="card-title">Grand Began Burger</h5>
+                                  <p class="card-text">Vegetal burger with cheddar, vegan bacon, sliced tomato, red onion, lettuce, and veganese sauce.</p>
+                                  <h2>6.40€</h2>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card mx-auto cardMargin d-sm-block custom-card-width">
+                                <img src="..." class="card-img-top" alt="image not found">
+                                <div class="card-body">
+                                  <h5 class="card-title">Double Cheese Began Burger</h5>
+                                  <p class="card-text">Double patty, melted cheddar, vegan bacon, lettuce, tomato, red onion, chucrut, and veganese sauce.</p>
+                                  <h2>7.50€</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card mx-auto cardMargin d-sm-block custom-card-width">
+                                <img src="..." class="card-img-top" alt="image not found">
+                                <div class="card-body">
+                                  <h5 class="card-title">Onion BBQ Burger</h5>
+                                  <p class="card-text">Vegetable burger, cheddar, vegan bacon, onion rings, pickles, and BBQ sauce.</p>
+                                  <h2>6.70€</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-12 col-md-6 col-lg-3">
                             <div class="card mx-auto cardMargin d-sm-block custom-card-width">
                                 <img src="..." class="card-img-top" alt="image not found">
                                 <div class="card-body">
@@ -287,27 +331,7 @@
                                   <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <div class="card mx-auto cardMargin d-sm-block custom-card-width">
-                                <img src="..." class="card-img-top" alt="image not found">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <div class="card mx-auto cardMargin d-sm-block custom-card-width">
-                                <img src="..." class="card-img-top" alt="image not found">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -321,9 +345,9 @@
                             <div class="card mx-auto cardMargin d-sm-block custom-card-width">
                                 <img src="..." class="card-img-top" alt="image not found">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <h5 class="card-title">Veganbab</h5>
+                                  <p class="card-text">Pita bread filled with spiced seitan, lettuce, sliced tomato, red onion, chucrut, and arabian sauce.</p>
+                                  <h2>5.90€</h2>
                                 </div>
                             </div>
                         </div>
@@ -331,7 +355,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="title">Menus</div>
             <div class="col-12">
                 <div class="container-fluid">
@@ -379,7 +403,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="row">
             <div class="title">Desserts</div>
             <div class="col-12">
@@ -389,13 +413,23 @@
                             <div class="card mx-auto cardMargin d-sm-block custom-card-width">
                                 <img src="..." class="card-img-top" alt="image not found">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <h5 class="card-title">Chocolate Brownie</h5>
+                                  <p class="card-text"></p>
+                                  <h2>2.80€</h2>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card mx-auto cardMargin d-sm-block custom-card-width">
+                                <img src="..." class="card-img-top" alt="image not found">
+                                <div class="card-body">
+                                  <h5 class="card-title">Cake Slice</h5>
+                                  <p class="card-text"></p>
+                                  <h2>3.30€</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-12 col-md-6 col-lg-3">
                             <div class="card mx-auto cardMargin d-sm-block custom-card-width">
                                 <img src="..." class="card-img-top" alt="image not found">
                                 <div class="card-body">
@@ -404,17 +438,7 @@
                                   <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <div class="card mx-auto cardMargin d-sm-block custom-card-width">
-                                <img src="..." class="card-img-top" alt="image not found">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -428,9 +452,9 @@
                             <div class="card mx-auto cardMargin d-sm-block custom-card-width">
                                 <img src="..." class="card-img-top" alt="image not found">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <h5 class="card-title">Whole Earth</h5>
+                                  <p class="card-text"></p>
+                                  <h2>1.90€</h2>
                                 </div>
                             </div>
                         </div>
@@ -438,9 +462,9 @@
                             <div class="card mx-auto cardMargin d-sm-block custom-card-width">
                                 <img src="..." class="card-img-top" alt="image not found">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <h5 class="card-title">Water</h5>
+                                  <p class="card-text">50cl</p>
+                                  <h2>1.40€</h2>
                                 </div>
                             </div>
                         </div>
@@ -448,9 +472,9 @@
                             <div class="card mx-auto cardMargin d-sm-block custom-card-width">
                                 <img src="..." class="card-img-top" alt="image not found">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <h5 class="card-title">Hollinger Soda</h5>
+                                  <p class="card-text"></p>
+                                  <h2>1.90€</h2>
                                 </div>
                             </div>
                         </div>
@@ -458,9 +482,9 @@
                             <div class="card mx-auto cardMargin d-sm-block custom-card-width">
                                 <img src="..." class="card-img-top" alt="image not found">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <h5 class="card-title">Heineken Beer</h5>
+                                  <p class="card-text"></p>
+                                  <h2>2.00€</h2>
                                 </div>
                             </div>
                         </div>

@@ -29,10 +29,23 @@ header{
     padding: 0.2em;
 }
 
-section{
+.burgerButton{
+    background-color: #a3d8b4;
+    border-radius: 5% / 10%;
+}
+
+.offcanvas-header{
+    background-color: #cea474;
+}
+
+.offCanvasArea{
+    background-color: #a3d8b4;
+}
+
+/* section{
     margin-left: 4em;
     margin-right: 4em;
-}
+} */
 
 #contentArea{
     width: 100%;
@@ -54,9 +67,10 @@ section{
     /* width: calc(100vw - 7.5em); */
     /* justify-content: center;
     align-items: center; */
-    margin-left: auto;
+
+    /* margin-left: auto;  I LIKE THIS BUT REMOVED FOR NOW
     margin-right: auto;
-    width: calc(100vw - 8em);
+    width: calc(100vw - 8em); */
 }
 
 /* .card{
@@ -105,9 +119,10 @@ section{
 
     /* margin-left: 3em;
     margin-right: 4.5em; */
-    margin-left: auto;
+
+    /* margin-left: auto; I LIKE THIS BUT REMOVED FOR NOW
     margin-right: auto;
-    width: calc(100vw - 8em);
+    width: calc(100vw - 8em); */
 
     
 }
