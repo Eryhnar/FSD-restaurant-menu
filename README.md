@@ -2,7 +2,7 @@
 
 This is a website made for an FSD bootcamp at Geekshubs academy. The content (pictures, descriptions and dishes) were taken from <a href="https://thebegan.es/en/home/">The Began</a> and translated. This was made in 5 evenings.
 
-## Table of Contents
+## Index
 
 - [Stack](#stack)
 - [Features](#features)
@@ -14,7 +14,10 @@ This is a website made for an FSD bootcamp at Geekshubs academy. The content (pi
 
 ## Stack 
 
-CSS, HTML, BOOTSTRAP
+![Static Badge](https://img.shields.io/badge/CSS-blue)
+![Static Badge](https://img.shields.io/badge/HTML-red)
+![Static Badge](https://img.shields.io/badge/BOOTSTRAP-black)
+
 
 ## Features 
 
@@ -23,6 +26,7 @@ CSS, HTML, BOOTSTRAP
 - **Auto-adjusting Images:** The pictures on the website adjust size to their containers automatically, making them responsive as well. 
 - **Google Maps Widget:** The website has an interactible map showing the restaurant's address. 
 - **Hover Funtionality:** Buttons and food cards have hover functionality. 
+- **Collapsable Navbar** The navigation bar collapses into a button that opens in an offcanvas given a small enough screen size.
 
 
 ## Live Deployment 
