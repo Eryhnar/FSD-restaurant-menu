@@ -3,7 +3,6 @@ body{
     margin: 0;
 
     background-color: bisque;
-    /* background-color: #cea474; */
     
 }
 
@@ -12,30 +11,10 @@ body{
     margin-right: 10%;
 }
 
-/* .homeSecFormat{
-    margin-left: 10%;
-    margin-right: 10%;
-} */
-
-/* .indexCardText{
-    margin-top: 1em;
-    margin-bottom: 1em;
-} */
-
-
-
 header{
     height: 10vh;
     background-color: #cea474;
 }
-
-/* #cornerLogo{
-    display: flex; 
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center;
-    height: 100%; 
-} */
 
 #cornerLogo {
     position: relative;
@@ -52,7 +31,6 @@ header{
 
 #cornerLogo img {
     max-width: 100%; 
-    /* height: auto;  */
     padding: 0.2em;
 }
 
@@ -90,8 +68,6 @@ header{
 section{
     min-height: 85vh;
     background-color: bisque;
-    /* margin-left: 4em;
-    margin-right: 4em; */
     padding-top: 2em;
     padding-bottom: 2em;
 }
@@ -120,8 +96,6 @@ h3{
 .indexMainCard{
     margin-top: 1em;
     margin-bottom: 1em;
-    /* margin-left: 0.5;
-    margin-right: 0.5; */
     background-color: #a3d8b4;
     border-radius: 5% / 10%;
 }
@@ -129,8 +103,6 @@ h3{
 .indexCard{
     margin-top: 1em;
     margin-bottom: 1em;
-    /* margin-left: 0.5;
-    margin-right: 0.5; */
     background-color: #a3d8b4;
     border-radius: 5% / 3%;
 }
@@ -138,8 +110,6 @@ h3{
 .indexAddressCard{
     margin-top: 1em;
     margin-bottom: 1em;
-    /* margin-left: 0.5;
-    margin-right: 0.5; */
     background-color: #a3d8b4;
     border-radius: 50% 20% / 10% 40%;
 
@@ -158,25 +128,14 @@ h3{
 
 .sectionText{
     font-size: 1.1em;
-    /* margin-top: 1em; */
     margin-bottom: 1em;
-    /* padding-left: 2em;
-    padding-right: 2em; */
 }
-
-/* .aboutUsPicture{
-    height: 15em;
-    width: 15em;
-
-} */
 
 .aboutUsPicture {
     position: relative;
     width: 100%;
     padding-bottom: 100%;
     overflow: hidden;
-    /* border-radius: 5%; */
-    /* padding: 2em; */
     margin-bottom: 2em;
 }
 
@@ -186,7 +145,6 @@ h3{
     width: 100%;
     height: 100%;
     border-radius: 5%;
-    /* margin: 2em; */
 }
 
 .center{
@@ -204,37 +162,13 @@ h3{
     align-items: center;
 }
 
-/* #mapCard{
-    padding-left: 3em;
-    padding-right: 3em;
-} */
-
 .map{
-    /* height: 25em;
-    width: 25em; */
-    /* height: 100%;
-    width: 100%;
-    min-height: 12em;
-    min-width: 12em; */
     height: 15em;
     width: 15em;
-    /* margin-left: 2em;
-    margin-right: 2em; */
-    /* margin: 4em;
-    margin-top: 0;
-    margin-bottom: 0; */
-
 }
 
 footer{
-    /* height: 5vh; */
     background-color: #cea474;
-    /* background-color: red; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row; */
-    
 }
 
 #footerArea{
@@ -242,14 +176,9 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 .socialMediaIcons{
     height: 1.5em;
     width: 1.5em;
 }
-
-/* fccb92 */
-
-/* a3d8b4 */

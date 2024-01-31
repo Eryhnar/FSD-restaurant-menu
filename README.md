@@ -47,7 +47,10 @@ git clone https://github.com/Eryhnar/FSD-restaurant-menu.git
 
 ## Roadmap 
 
+- **Add pictures to the food cards** - Food cards will have pictures showing what they are. This was delayed due to not having the official pictures for all dishes.
+
 - **Make the menu title text more responsive** - So that it follows better the expected possition at all times.
+
 - **Fix the vertical overflow that occurs on some screen sizes in the footer**
 
 - **Add a phone interactive button** - To allow users to automatically dial the contact number when on phone.

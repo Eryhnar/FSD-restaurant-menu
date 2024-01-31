@@ -1,7 +1,6 @@
 body{
     padding: 0;
     margin: 0;
-    /* background-color: bisque; */
     background-color: bisque;
 }
 
@@ -10,13 +9,6 @@ header{
     background-color: #cea474;
 }
 
-/* #cornerLogo{
-    display: flex; 
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center;
-    height: 100%; 
-} */
 
 #cornerLogo {
     position: relative;
@@ -33,7 +25,6 @@ header{
 
 #cornerLogo img {
     max-width: 100%; 
-    /* height: auto;  */
     padding: 0.2em;
 }
 
@@ -67,51 +58,26 @@ header{
     transform: scale(1.1);
 }
 
-/* section{
-    margin-left: 4em;
-    margin-right: 4em;
-} */
 
 #contentArea{
     width: 100%;
     height: 100%;
-    /* margin-left: 4em;
-    margin-right: 4em; */
-    /* margin-top: 3em;
-    margin-bottom: 3em; */
-    
 }
 
 .foodCardArea{
     display: flex;
     flex-direction: row;
-    /* background-color: #cea474; */
     background-color: bisque;
-    /* margin-left: 1.5em;
-    margin-right: 6em; */
-    /* width: calc(100vw - 7.5em); */
-    /* justify-content: center;
-    align-items: center; */
-
-    /* margin-left: auto;  I LIKE THIS BUT REMOVED FOR NOW
-    margin-right: auto;
-    width: calc(100vw - 8em); */
     margin-top: 2em;
     margin-bottom: 2em;
 }
 
-/* .card{
-    width: 18em;
-} */
+
 @media (min-width: 768px) {
     .custom-card-width {
         width: 18rem;
     }
 }
-
-/* .cardBody{
-    width: 5em;
-} */
 
 .custom-card-width {
     width: 15em;
@@ -127,18 +93,7 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* width: 10em; */
-    
-    /* background-color: aqua; */
-    /* margin: 0.1em; */
 }
-
-/* .cardBody{
-} */
-
-/* .cardTitle{
-
-} */
 
 .card-text{
     height: 6em;
@@ -149,28 +104,10 @@ header{
     display: flex;
     justify-content: left;
     align-items: center;
-    /* padding-left: 7em; */
     background-color: #a3d8b4;
     font-weight: bold;
     font-size: 1.3em;
     padding-left: 6em;
-    
-
-    /* border-top: 0.1em solid green; */
-    /* margin: 0em, 5em, 0em, 5em; */
-    /* margin: 3em; */
-    /* padding: -5em; */
-    /* max-width: 100vw; */
-    /* margin: 0em, 3em; */
-
-    /* margin-left: 3em;
-    margin-right: 4.5em; */
-
-    /* margin-left: auto; I LIKE THIS BUT REMOVED FOR NOW
-    margin-right: auto;
-    width: calc(100vw - 8em); */
-
-    
 }
 
 
@@ -183,13 +120,7 @@ header{
 
 footer{
     height: 5vh;
-    background-color: #cea474;
-    /* background-color: red; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row; */
-    
+    background-color: #cea474;   
 }
 
 #footerArea{
