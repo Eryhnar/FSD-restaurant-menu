@@ -46,6 +46,10 @@ header{
     align-items: center;
 }
 
+#cornerLogo:hover img{
+    transform: scale(1.1);
+}
+
 #cornerLogo img {
     max-width: 100%; 
     /* height: auto;  */
@@ -53,8 +57,13 @@ header{
 }
 
 .burgerButton{
-    background-color: #a3d8b4;
+    background-color: #6cd6c3;
     border-radius: 5% / 10%;
+}
+
+.burgerButton:hover{
+    background-color: #4eb3a0;
+    transform: scale(1.1);
 }
 
 .offcanvas-header{
@@ -64,6 +73,19 @@ header{
 .offCanvasArea{
     background-color: #a3d8b4;
 }
+
+.headerButton{
+    background-color: #6cd6c3;
+    border-radius: 5% / 10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.5em;
+}
+
+.headerButton:hover{
+    background-color: #4eb3a0;
+    transform: scale(1.1);
+}
+    
 
 section{
     min-height: 85vh;
@@ -182,15 +204,31 @@ h3{
     align-items: center;
 }
 
+/* #mapCard{
+    padding-left: 3em;
+    padding-right: 3em;
+} */
+
 .map{
-    height: 35em;
-    width: 35em;
-    margin: 2em;
+    /* height: 25em;
+    width: 25em; */
+    /* height: 100%;
+    width: 100%;
+    min-height: 12em;
+    min-width: 12em; */
+    height: 15em;
+    width: 15em;
+    /* margin-left: 2em;
+    margin-right: 2em; */
+    /* margin: 4em;
+    margin-top: 0;
+    margin-bottom: 0; */
+
 }
 
 footer{
     /* height: 5vh; */
-    background-color: #fccb92;
+    background-color: #cea474;
     /* background-color: red; */
     /* display: flex;
     justify-content: center;

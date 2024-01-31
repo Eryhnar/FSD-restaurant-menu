@@ -2,16 +2,20 @@ body{
     padding: 0;
     margin: 0;
     /* background-color: bisque; */
-    background-color: #cea474;
+    background-color: bisque;
 }
 
 header{
     height: 10vh;
-    /* background-color: orange; */
+    background-color: #cea474;
 }
 
-/* #topContent{
-    background-color: aqua;
+/* #cornerLogo{
+    display: flex; 
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center;
+    height: 100%; 
 } */
 
 #cornerLogo {
@@ -23,6 +27,10 @@ header{
     align-items: center;
 }
 
+#cornerLogo:hover img{
+    transform: scale(1.1);
+}
+
 #cornerLogo img {
     max-width: 100%; 
     /* height: auto;  */
@@ -30,8 +38,13 @@ header{
 }
 
 .burgerButton{
-    background-color: #a3d8b4;
+    background-color: #6cd6c3;
     border-radius: 5% / 10%;
+}
+
+.burgerButton:hover{
+    background-color: #4eb3a0;
+    transform: scale(1.1);
 }
 
 .offcanvas-header{
@@ -40,6 +53,18 @@ header{
 
 .offCanvasArea{
     background-color: #a3d8b4;
+}
+
+.headerButton{
+    background-color: #6cd6c3;
+    border-radius: 5% / 10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.5em;
+}
+
+.headerButton:hover{
+    background-color: #4eb3a0;
+    transform: scale(1.1);
 }
 
 /* section{
@@ -52,8 +77,8 @@ header{
     height: 100%;
     /* margin-left: 4em;
     margin-right: 4em; */
-    margin-top: 3em;
-    margin-bottom: 3em;
+    /* margin-top: 3em;
+    margin-bottom: 3em; */
     
 }
 
@@ -71,6 +96,8 @@ header{
     /* margin-left: auto;  I LIKE THIS BUT REMOVED FOR NOW
     margin-right: auto;
     width: calc(100vw - 8em); */
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 /* .card{
@@ -82,11 +109,25 @@ header{
     }
 }
 
+/* .cardBody{
+    width: 5em;
+} */
+
+.custom-card-width {
+    width: 15em;
+}
+
+.card:hover{
+    
+    background-color: #cfcfcf;
+}
+
 .foodCard{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    /* width: 10em; */
     
     /* background-color: aqua; */
     /* margin: 0.1em; */
@@ -110,6 +151,11 @@ header{
     align-items: center;
     /* padding-left: 7em; */
     background-color: #a3d8b4;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-left: 6em;
+    
+
     /* border-top: 0.1em solid green; */
     /* margin: 0em, 5em, 0em, 5em; */
     /* margin: 3em; */
@@ -127,6 +173,7 @@ header{
     
 }
 
+
 .cardMargin{
     margin-top: 0.4em;
     margin-bottom: 0.4em;
@@ -136,6 +183,7 @@ header{
 
 footer{
     height: 5vh;
+    background-color: #cea474;
     /* background-color: red; */
     /* display: flex;
     justify-content: center;
