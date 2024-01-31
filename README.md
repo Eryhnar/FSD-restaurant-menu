@@ -5,12 +5,12 @@ This is a website made for an FSD bootcamp at Geekshubs academy. The content (pi
 ## Table of Contents
 
 - [Stack](#stack)
-- [Features](#features-)
-- [Live Deployment](#live-deployment-)
-- [Installation](#installation-)
-- [Author](#author-)
-- [Roadmap](#roadmap-️)
-- [Known Issues](#known-issues-)
+- [Features](#features)
+- [Live Deployment](#live-deployment)
+- [Installation](#installation)
+- [Author](#author)
+- [Roadmap](#roadmap)
+- [Known Issues](#known-issues)
 
 ## Stack 
 
